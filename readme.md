@@ -16,7 +16,7 @@ This code comes from an old commit and only contains logic for about 1/3 of the 
 
 **Authentication**
   - I rolled my own custom auth for this app
-  - The auth logic is present in this codebase, the endpoints start [api/endpoints/auth_api](api/endpoints/auth_api)
+  - The auth logic is present in this codebase, the endpoints start [app/api/endpoints/auth_api](app/api/endpoints/auth_api)
   
 
   - User Registration and Verification: Users can register by providing their email and password. A verification code is sent to the user's email to complete the registration process.
@@ -26,12 +26,12 @@ This code comes from an old commit and only contains logic for about 1/3 of the 
   - Password Recovery: Users can request a password reset, which sends a secure token to their email to reset their password.
 
 **Coverage Map**
-- at [api/endpoints/coveragemap_api](api/endpoints/coveragemap_api)
+- at [app/api/endpoints/coveragemap_api](app/api/endpoints/coveragemap_api)
 - Data Retrieval: Provides endpoints to retrieve coverage map data from an S3 bucket, including real-time updates and data size metadata.
 
 
 **Nielsen Daily Report**
-- at [api/endpoints/nielsen_api](api/endpoints/nielsen_api)
+- at [app/api/endpoints/nielsen_api](app/api/endpoints/nielsen_api)
 - File Verification and Report Generation: Verifies uploaded Nielsen files and generates reports based on daily and benchmark data. Supports downloading of generated reports.
   
   - Meat of this report is [transformations/nielsen/nielsen_daily_report.py](/Users/jdriscoll/Documents/dev/sn_reporting_app-backend_expo/app/transformations/nielsen/nielsen_daily_report.py)
@@ -40,10 +40,10 @@ This code comes from an old commit and only contains logic for about 1/3 of the 
 - Configuration and Data Management: Manages subject lines, email recipients, and DMA lists in the database, allowing updates and retrievals.
 
 **Engagement**
-- at [api/endpoints/engagement_api](api/endpoints/engagement_api)
+- at [app/api/endpoints/engagement_api](app/api/endpoints/engagement_api)
 - Data Range and Analytics: Offers endpoints to retrieve engagement data range and detailed analytics, including yearly and quarterly engagement data.
 - Intensive pandas processing 
 
 **Basic User Administration**
-- at [api/endpoints/useradmin_api](api/endpoints/useradmin_api)
+- at [app/api/endpoints/useradmin_api](app/api/endpoints/useradmin_api)
 - User and Role Management: Provides endpoints to manage user roles, delete users, and handle pre-approved email lists.
