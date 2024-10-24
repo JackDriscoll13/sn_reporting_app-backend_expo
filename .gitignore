@@ -1,0 +1,13 @@
+# Python
+**/__pycache__/
+
+# Enviorrments 
+.venv
+venv/
+
+.DS_Store
+
+
+# Resources
+resources/
+
