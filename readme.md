@@ -16,7 +16,7 @@ This code comes from an old commit and only contains logic for about 1/3 of the 
 
 **Authentication**
   - I rolled my own custom auth for this app
-  - The auth logic is present in this codebase, the endpoints start [app/api/endpoints/auth_api](app/api/endpoints/auth_api)
+  - The auth logic is present in this codebase, the endpoints start [/app/api/endpoints/auth_api](/app/api/endpoints/auth_api)
   
 
   - User Registration and Verification: Users can register by providing their email and password. A verification code is sent to the user's email to complete the registration process.
