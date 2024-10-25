@@ -1,5 +1,6 @@
 To read more about how this api fits into our data app, please visit [jackdriscoll.io](https://jackdriscoll.io). (Add link to project demo)
 
+Note: I've obtained permission from my team at Spectrum to share this code on GitHub. I've been careful to exclude sensitive business logic and any confidential configuration information. This expo represents only a small slice of the greater project. Please keep that in mind if any components appear to be missing from the codebase.
 
 ### Overview
 
@@ -7,12 +8,12 @@ This an expo of some of the code I wrote for a project in the Spring and Summer 
 
 It is a REST API built in python with fastapi. 
 
-The API sits in between a database and a frontend built in typescript (insert link). The application on a whole is a full stack data application that allows stakeholders to understand and report on viewership data related to Spectrum News and it's competitors. 
+The API sits in between a database and a frontend built in typescript, the frontend code can be found [here](https://github.com/JackDriscoll13/sn_reporting_app-frontend_expo). The application on a whole is a full stack data application that allows stakeholders to understand and report on viewership data related to Spectrum News and it's competitors. 
 
 This code comes from an old commit and only contains logic for about 1/3 of the features currently active in the app.
 
 
-### Features Present in this EXPO
+### Features present in this expo:
 
 **Authentication**
   - I rolled my own custom auth for this app
