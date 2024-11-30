@@ -1,4 +1,4 @@
-To read more about how this api fits into our data app, please visit [jackdriscoll.io](https://jackdriscoll.io). (Add link to project demo)
+To read more about how this api fits into our data app, please visit [the project writeup](https://jackdriscoll.io/projects#sn-data-app) on my portfolio. (Add link to project demo)
 
 Note: I've obtained permission from my team at Spectrum to share this code on GitHub. I've been careful to exclude sensitive business logic and any confidential configuration information. This expo represents only a small slice of the greater project. Please keep that in mind if any components appear to be missing from the codebase.
 
